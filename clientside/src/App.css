@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  color:rgb(50,50,50);
+
+}
+li{
+  display: flex;
+  justify-content: center;
+}
+.App-header a{
+  color:rgb(255,255,0);
+}
+.App-bands h2{
+  color:white;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-bands{
+  color:rgb(50,50,50);
+}
+
+.App-bands li{
+  display: inline;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.cityLink{
+  text-decoration: underline;
+  color:lightseagreen;
+  cursor: pointer;
+}
